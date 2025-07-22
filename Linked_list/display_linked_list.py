@@ -18,7 +18,7 @@ class linked_list:
     def display(self):
          b=self.head
          while b:
-             print(b.element)
+             print(b.element,end="->")
              b=b.node
 a=linked_list()
 a.add(1)

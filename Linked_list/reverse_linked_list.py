@@ -20,7 +20,7 @@ class linked_list:
          while b:
              print(b.element,end="->")
              b=b.node
-    def rev(self):
+    def reverse(self):
         pre=None
         curr=self.head
         while curr:
@@ -35,6 +35,6 @@ a.add(2)
 a.add(3)
 a.add(4)
 a.display()
-a.rev()
+a.reverse()
 print("\n\treversed_list")
 a.display()
