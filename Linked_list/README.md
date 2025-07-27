@@ -2,11 +2,11 @@
 - Linked list is linear data structure
 - It store the element
 - Element has two major part
-data:store the current data<br>
+data:store the current data.<br>
 next:store the address of next element in list and it connecting link between two element
 # Linked list operation 
 ## Reverse_linked_list
-- Reverse the linked by reversing address stored in element 
+- Reverse the linked list by reversing address stored in element 
 ## insert_new_element 
 - Insert the new element at specific position
 ## Delet_element
@@ -17,4 +17,4 @@ next:store the address of next element in list and it connecting link between tw
 ### element_pos
 - Retrieve the position of data by giving data
 ## remove_duplicate_element 
--This method remove element two or more same data stored in element 
+- This method remove element two or more same data stored in element 
