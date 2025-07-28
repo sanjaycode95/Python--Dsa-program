@@ -9,7 +9,7 @@ next:store the address of next element in list and it connecting link between tw
 - Reverse the linked list by reversing address stored in element 
 ## insert_new_element 
 - Insert the new element at specific position
-## Delet_element
+## Delete_element
 - Delet the specific element by using data stored in element
 ## Linked_list_lookup
 ### search_element
