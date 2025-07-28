@@ -10,7 +10,7 @@ next:store the address of next element in list and it connecting link between tw
 ## insert_new_element 
 - Insert the new element at specific position
 ## Delete_element
-- Delet the specific element by using data stored in element
+- Delete the specific element by using data stored in element
 ## Linked_list_lookup
 ### search_element
 - Retrieve the data by giving position of data
