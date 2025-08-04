@@ -16,11 +16,11 @@ class linked_list:
             self.current.node=address
             self.current=address
     def display(self):
-         b=self.head
-         while b:
-             print(b.element,end="->")            
-             b=b.node
-         print("\n")
+    	b=self.head
+        while b:
+            print(b.element,end="->")            
+            b=b.node
+        print("\n")
     def  insert_element(self,a,pos):
         k=1
         b=self.head
