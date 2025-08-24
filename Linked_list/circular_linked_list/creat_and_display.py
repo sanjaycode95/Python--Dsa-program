@@ -25,5 +25,5 @@ class linked_list:
 a=linked_list()
 a.add(1)
 a.add(2)
-a.add(8
+a.add(8)
 a.display()
