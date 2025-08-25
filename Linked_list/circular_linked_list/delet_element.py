@@ -34,6 +34,8 @@ class linked_list:
                     b.next=b.next.next
                     break
                 b=b.next
+            if self.temp.data==data:
+                self.temp=b.next.next
 a=linked_list()
 a.add(1)
 a.add(2)
