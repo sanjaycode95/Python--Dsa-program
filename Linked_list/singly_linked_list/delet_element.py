@@ -20,11 +20,13 @@ class linked_list:
              if b.element==a:
                  self.head=b.node
                  return None
-             while b:
+             while b.node:
                  if a==b.node.element:
                      b.node=b.node.node
                      break
                  b=b.node
+             if self.current.element==a:
+                 self.current=b
 a=linked_list()
 a.add(1)
 a.add(2)
